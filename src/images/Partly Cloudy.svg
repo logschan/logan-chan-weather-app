@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="247px" height="247px" viewBox="0 0 247 247" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Partly Cloudy</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="247" height="247"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Partly-Cloudy">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g mask="url(#mask-2)" stroke-width="5">
+                <g transform="translate(26.000000, 53.000000)">
+                    <path d="M92.1773614,47.7754262 C87.703866,45.1244997 82.4823619,43.6027446 76.9054329,43.6027446 C60.3368904,43.6027446 46.9054329,57.0342021 46.9054329,73.6027446 C46.9054329,85.534593 53.8712166,95.8394955 63.958016,100.672684" id="Path" stroke="#F4B239" transform="translate(69.541397, 72.137714) rotate(24.000000) translate(-69.541397, -72.137714) "></path>
+                    <line x1="102.110779" y1="2.09085451" x2="102.110779" y2="32.0908545" id="Line-2" stroke="#F4B239" stroke-linecap="round" transform="translate(102.110779, 17.090855) rotate(24.000000) translate(-102.110779, -17.090855) "></line>
+                    <line x1="15.8356696" y1="34.3300591" x2="15.8356696" y2="65.3300591" id="Line-2-Copy-2" stroke="#F4B239" stroke-linecap="round" transform="translate(15.835670, 49.830059) rotate(-66.000000) translate(-15.835670, -49.830059) "></line>
+                    <line x1="14.786801" y1="84.7219987" x2="14.786801" y2="115.721999" id="Line-2-Copy" stroke="#F4B239" stroke-linecap="round" transform="translate(14.786801, 100.221999) rotate(69.000000) translate(-14.786801, -100.221999) "></line>
+                    <line x1="52.4632182" y1="0.0993800741" x2="52.4632182" y2="31.0993801" id="Line-2-Copy-2" stroke="#F4B239" stroke-linecap="round" transform="translate(52.463218, 15.599380) rotate(-21.000000) translate(-52.463218, -15.599380) "></line>
+                    <path d="M89.8611985,76.9602875 C89.7110427,58.0038566 102.903335,48.5256412 129.438075,48.5256412 C155.972815,48.5256412 167.381617,63.238702 163.66448,92.6648236 C184.854979,92.6648236 195.450228,100.995416 195.450228,117.6566 C195.450228,134.317784 179.990774,141.875119 149.071866,140.328606 L85.8018614,140.328606 C64.0766179,139.600147 52.1430136,132.042811 50.0010484,117.6566 C46.4885259,94.0652305 59.7752426,80.499793 89.8611985,76.9602875 Z" id="Path" stroke="#6879A8"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

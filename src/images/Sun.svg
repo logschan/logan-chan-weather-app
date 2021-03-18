@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="247px" height="247px" viewBox="0 0 247 247" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Sun</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="247" height="247"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sun">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g id="Group-4" mask="url(#mask-2)" stroke="#F4B239" stroke-width="5">
+                <g transform="translate(42.000000, 43.000000)">
+                    <circle id="Oval" cx="82" cy="80" r="30"></circle>
+                    <line x1="82" y1="-1.33330846e-14" x2="82" y2="30" id="Line-2" stroke-linecap="round"></line>
+                    <line x1="82" y1="130" x2="82" y2="161" id="Line-2-Copy" stroke-linecap="round"></line>
+                    <line x1="147.5" y1="64.5" x2="147.5" y2="95.5" id="Line-2-Copy" stroke-linecap="round" transform="translate(147.500000, 80.000000) rotate(-90.000000) translate(-147.500000, -80.000000) "></line>
+                    <line x1="16.5" y1="64.5" x2="16.5" y2="95.5" id="Line-2-Copy-2" stroke-linecap="round" transform="translate(16.500000, 80.000000) rotate(-90.000000) translate(-16.500000, -80.000000) "></line>
+                    <line x1="128.315494" y1="19.1845058" x2="128.315494" y2="49.1845058" id="Line-2" stroke-linecap="round" transform="translate(128.315494, 34.184506) rotate(45.000000) translate(-128.315494, -34.184506) "></line>
+                    <line x1="36.0380592" y1="110.961941" x2="36.0380592" y2="141.961941" id="Line-2-Copy" stroke-linecap="round" transform="translate(36.038059, 126.461941) rotate(45.000000) translate(-36.038059, -126.461941) "></line>
+                    <line x1="128.669048" y1="110.961941" x2="128.669048" y2="141.961941" id="Line-2-Copy" stroke-linecap="round" transform="translate(128.669048, 126.461941) rotate(-45.000000) translate(-128.669048, -126.461941) "></line>
+                    <line x1="36.0380592" y1="18.3309524" x2="36.0380592" y2="49.3309524" id="Line-2-Copy-2" stroke-linecap="round" transform="translate(36.038059, 33.830952) rotate(-45.000000) translate(-36.038059, -33.830952) "></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

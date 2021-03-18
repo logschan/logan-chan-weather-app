@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What's the Weather</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap" rel="stylesheet" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<header autofocus="on">
+    <form class="search-form" id="search-form">
+        <input id="search-input" class="search-input" type="search" placeholder="Find a city" />
+        <input id="search-btn" class="button" type="submit" value="Search" />
+        <input id="current-btn" class="button" type="submit" value="Current" />
+    </form>
+</header>
+
+<body>
+    <div class="container">
+        <div class="today">
+            <h1 id="current-city"></h1>
+            <h2 id="current-date"></h2>
+
+            <img class="main" src="src/images/Sun.svg" alt="Sunny" />
+
+            <h3><span class="temperature" id="temperature"> </span>ºC</h3>
+            <p id="description"></span></p>
+        </div>
+
+        <!-- <div class="row">
+        <div class="col">
+          Tues
+          <br />
+          2/8
+          <br />
+          <img class="week" src="src/images/Partly Cloudy.svg" />
+          <br />
+          9˚ F - 32˚ F
+        </div>
+        <div class="col">
+          Wed
+          <br />
+          2/9
+          <br />
+          <img class="week" src="src/images/Snowflake.svg" />
+          <br />
+          7˚ F - 29˚ F
+        </div>
+        <div class="col">
+          Thurs
+          <br />
+          2/10
+          <br />
+          <img class="week" src="src/images/Snowflake.svg" />
+          <br />
+          0˚ F - 16˚ F
+        </div>
+        <div class="col">
+          Fri
+          <br />
+          2/11
+          <br />
+          <img class="week" src="src/images/Snowflake.svg" />
+          <br />
+          10˚ F - 27˚ F
+        </div>
+        <div class="col">
+          Sat
+          <br />
+          2/12
+          <br />
+          <img class="week" src="src/images/Sun.svg" />
+          <br />
+          9˚ F - 28˚ F
+        </div>
+        <div class="col">
+          Sun
+          <br />
+          2/13
+          <br />
+          <img class="week" src="src/images/Sun.svg" />
+          <br />
+          16˚ F - 37˚ F
+        </div>
+      </div> -->
+    </div>
+    <script src="src/script.js"></script>
+</body>
+
+</html>
