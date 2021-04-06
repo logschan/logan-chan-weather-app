@@ -25,7 +25,6 @@ function formatDate(timestamp) {
   
   //updating temperature and city
   function displayTemperature(response) {
-    console.log(response.data);
     let temperatureElement = document.querySelector("#temperature");
     let dateElement = document.querySelector("#date");
     let cityElement = document.querySelector("#city");
@@ -52,12 +51,12 @@ function formatDate(timestamp) {
   }
 
   function enterCity(event) {
-    event.preventDefault();
-    let enterCityInput = document.querySelector("#search-input");
-    search(enterCityInput.value);
+    event.preventDefault()
+    let enterCityInput = document.querySelector("#search-input").value;
+    search(enterCityInput);
   }
 
   let formSubmit = document.querySelector("#search-form");
   formSubmit.addEventListener("submit", enterCity);
 
-  search("New York");
+search("New York");

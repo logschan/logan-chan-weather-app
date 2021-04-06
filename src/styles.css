@@ -42,7 +42,16 @@ img {
   background-color: transparent;
 }
 
-.button {
+#search-btn {
+  border-radius: 25px;
+  font-size: 12px;
+  background-color: #ffc107;
+  border: none;
+  padding: 10px;
+  top: 10px;
+}
+
+#current-btn {
   border-radius: 25px;
   font-size: 12px;
   background-color: #ffc107;
