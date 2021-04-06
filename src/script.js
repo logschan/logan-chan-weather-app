@@ -32,19 +32,20 @@ function formatDate(timestamp) {
     let descriptionElement = document.querySelector("#description");
     let humidityElement = document.querySelector("#humidity");
     let windSpeedElement = document.querySelector("#windSpeed");
-
+   
     temperatureElement.innerHTML = Math.round(response.data.main.temp);
-    dateElement.innerHTML = returnDate(reponse.data.dt);
+    dateElement.innerHTML =  returnDate(response.data.dt*1000);
     cityElement.innerHTML = response.data.name;
     descriptionElement.innerHTML = response.data.weather[0].description;
     humidityElement.innerHTML = response.data.main.humidity;
-    windSpeedElement.innerHTML = Math.round(reponse.data.wind.speed);
+    windSpeedElement.innerHTML = Math.round(response.data.wind.speed);
+
   }
   
   //calling the api
   function search(city) {
   let apiKey = "5c043c30014fadd9b81c029b76e781d4";
-  let cityName = "New York";
+  let cityName = city;
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}&units=metric`;
 
   axios.get(apiUrl).then(displayTemperature);
@@ -58,3 +59,5 @@ function formatDate(timestamp) {
 
   let formSubmit = document.querySelector("#search-form");
   formSubmit.addEventListener("submit", enterCity);
+
+  search("New York");
